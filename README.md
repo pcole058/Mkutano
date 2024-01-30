@@ -13,6 +13,10 @@ Code changes are accepted via pull requests.  If you find a bug please report it
 
 
 # Install the Mkutano Community Platform locally
+## Infrastructure
+![infrastructure](./contrib/doc/infrastructure.png)
+
+Our infrastructure is based on two segregated environments. The first one handle let's encrypt certificates and load balancing. The second one handle a decidim infrastructure with postgres database, memcache caching and redis queues.
 
 ## With a production-like setup
 To run almost the same production infrastructure locally:
