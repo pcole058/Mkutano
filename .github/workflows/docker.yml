@@ -1,0 +1,26 @@
+name: Build docker images
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every day at 17:30, we update images
+    - cron:  '30 17 * * *'
+
+jobs:
+  decidim:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Docker Image to Github Registry
+        run: |
+          docker build -t ghcr.io/${{ github.repository_owner }}/mkutano:latest .
+          docker push ghcr.io/${{ github.repository_owner }}/mkutano:latest
