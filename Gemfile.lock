@@ -1,0 +1,837 @@
+GIT
+  remote: https://git.octree.ch/decidim/decidim-module-group-list.git
+  revision: 9bda87cf0cb902006de09fe91e9694096e43f4b0
+  branch: feat/self_registration_groups
+  specs:
+    decidim-group_list (0.26.4)
+      decidim-admin (>= 0.26.4)
+      decidim-assemblies (>= 0.26.4)
+      decidim-core (>= 0.26.4)
+      deface (~> 1.5)
+
+GIT
+  remote: https://git.octree.ch/decidim/decidim-module-only_forms
+  revision: 5ed749350eeceae2c3d2b538edd93f54c89321a5
+  branch: release/0.26-stable
+  specs:
+    decidim-only_forms (0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-forms (= 0.26.4)
+      decidim-surveys (= 0.26.4)
+      decidim-templates (= 0.26.4)
+
+GIT
+  remote: https://github.com/Platoniq/decidim-module-access_codes
+  revision: 058a34efd707d951fadf4afe37d46419626c578e
+  specs:
+    decidim-access_codes (0.26)
+      decidim-admin (~> 0.26.0)
+      decidim-core (~> 0.26.0)
+      decidim-verifications (~> 0.26.0)
+
+GIT
+  remote: https://github.com/mainio/decidim-module-term_customizer
+  revision: f0d720710822f1231ea249dd71f978143d38a6c4
+  branch: release/0.26-stable
+  specs:
+    decidim-term_customizer (0.26.0)
+      decidim-admin (~> 0.26.0)
+      decidim-core (~> 0.26.0)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-lts
+  revision: 118bba50b3c5fe21e76827db226d51f3bc126eac
+  branch: lts/0.26.4
+  glob: decidim-conferences/*.gemspec
+  specs:
+    decidim-conferences (0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-meetings (= 0.26.4)
+      wicked_pdf (~> 2.1)
+      wkhtmltopdf-binary (~> 0.12)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-lts
+  revision: 118bba50b3c5fe21e76827db226d51f3bc126eac
+  branch: lts/0.26.4
+  glob: decidim-initiatives/*.gemspec
+  specs:
+    decidim-initiatives (0.26.4)
+      decidim-admin (= 0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-verifications (= 0.26.4)
+      origami (~> 2.1)
+      virtus-multiparams (~> 0.1)
+      wicked (~> 1.3)
+      wicked_pdf (~> 2.1)
+      wkhtmltopdf-binary (~> 0.12)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-lts
+  revision: ddd19998feb82e936b059766538bb69f6043f97f
+  branch: lts/0.26.4
+  specs:
+    decidim (0.26.4)
+      decidim-accountability (= 0.26.4)
+      decidim-admin (= 0.26.4)
+      decidim-api (= 0.26.4)
+      decidim-assemblies (= 0.26.4)
+      decidim-blogs (= 0.26.4)
+      decidim-budgets (= 0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-debates (= 0.26.4)
+      decidim-forms (= 0.26.4)
+      decidim-generators (= 0.26.4)
+      decidim-meetings (= 0.26.4)
+      decidim-pages (= 0.26.4)
+      decidim-participatory_processes (= 0.26.4)
+      decidim-proposals (= 0.26.4)
+      decidim-sortitions (= 0.26.4)
+      decidim-surveys (= 0.26.4)
+      decidim-system (= 0.26.4)
+      decidim-templates (= 0.26.4)
+      decidim-verifications (= 0.26.4)
+    decidim-accountability (0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-admin (0.26.4)
+      active_link_to (~> 1.0)
+      decidim-core (= 0.26.4)
+      devise (~> 4.7)
+      devise-i18n (~> 1.2)
+      devise_invitable (~> 2.0)
+    decidim-api (0.26.4)
+      graphql (~> 1.12, < 1.13)
+      rack-cors (~> 1.0)
+      redcarpet (~> 3.5, >= 3.5.1)
+    decidim-assemblies (0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-blogs (0.26.4)
+      decidim-admin (= 0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-budgets (0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-comments (0.26.4)
+      decidim-core (= 0.26.4)
+      redcarpet (~> 3.5, >= 3.5.1)
+    decidim-core (0.26.4)
+      active_link_to (~> 1.0)
+      acts_as_list (~> 0.9)
+      batch-loader (~> 1.2)
+      browser (~> 2.7)
+      carrierwave (~> 2.2.1)
+      cells-erb (~> 0.1.0)
+      cells-rails (~> 0.1.3)
+      charlock_holmes (~> 0.7)
+      date_validator (~> 0.9.0)
+      decidim-api (= 0.26.4)
+      devise (~> 4.7)
+      devise-i18n (~> 1.2)
+      diffy (~> 3.3)
+      doorkeeper (~> 5.1)
+      doorkeeper-i18n (~> 4.0)
+      file_validators (~> 2.1)
+      fog-local (~> 0.6)
+      foundation_rails_helper
+      geocoder (~> 1.7.5)
+      hashdiff (>= 0.4.0, < 2.0.0)
+      invisible_captcha (~> 0.12)
+      kaminari (~> 1.2, >= 1.2.1)
+      loofah (~> 2.3.1)
+      mime-types (>= 1.16, < 4.0)
+      mini_magick (~> 4.9)
+      mustache (~> 1.1.0)
+      omniauth (~> 2.0)
+      omniauth-facebook (~> 5.0)
+      omniauth-google-oauth2 (~> 1.0)
+      omniauth-rails_csrf_protection (~> 1.0)
+      omniauth-twitter (~> 1.4)
+      paper_trail (~> 12.0)
+      pg (~> 1.1.4, < 2)
+      pg_search (~> 2.2)
+      premailer-rails (~> 1.10)
+      rack (~> 2.2, >= 2.2.3)
+      rack-attack (~> 6.0)
+      rails (~> 6.0.4)
+      rails-i18n (~> 6.0)
+      ransack (~> 2.4.1)
+      rectify (~> 0.13.0)
+      redis (~> 4.1)
+      request_store (~> 1.5.0)
+      rubyXL (~> 3.4)
+      rubyzip (~> 2.0)
+      searchlight (~> 4.1)
+      seven_zip_ruby (~> 1.3)
+      social-share-button (~> 1.2, >= 1.2.1)
+      valid_email2 (~> 2.1)
+      webpacker (= 6.0.0.rc.5)
+      wisper (~> 2.0)
+    decidim-debates (0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-forms (0.26.4)
+      decidim-core (= 0.26.4)
+      wicked_pdf (~> 2.1)
+      wkhtmltopdf-binary (~> 0.12)
+    decidim-generators (0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-meetings (0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-forms (= 0.26.4)
+      icalendar (~> 2.5)
+    decidim-pages (0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-participatory_processes (0.26.4)
+      decidim-core (= 0.26.4)
+    decidim-proposals (0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+      doc2text (~> 0.4.4)
+      redcarpet (~> 3.5, >= 3.5.1)
+    decidim-sortitions (0.26.4)
+      decidim-admin (= 0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-proposals (= 0.26.4)
+    decidim-surveys (0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-forms (= 0.26.4)
+      decidim-templates (= 0.26.4)
+    decidim-system (0.26.4)
+      active_link_to (~> 1.0)
+      decidim-core (= 0.26.4)
+      devise (~> 4.7)
+      devise-i18n (~> 1.2)
+      devise_invitable (~> 2.0)
+    decidim-verifications (0.26.4)
+      decidim-core (= 0.26.4)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-lts
+  revision: ddd19998feb82e936b059766538bb69f6043f97f
+  branch: lts/0.26.4
+  glob: decidim-templates/*.gemspec
+  specs:
+    decidim-templates (0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-forms (= 0.26.4)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-lts.git
+  revision: 118bba50b3c5fe21e76827db226d51f3bc126eac
+  branch: lts/0.26.4
+  glob: decidim-consultations/*.gemspec
+  specs:
+    decidim-consultations (0.26.4)
+      decidim-admin (= 0.26.4)
+      decidim-comments (= 0.26.4)
+      decidim-core (= 0.26.4)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-module-challenges.git
+  revision: 1b2ea69b04da37ca7b1594da9b0d8129a4030f1c
+  branch: release/0.26-stable
+  specs:
+    decidim-challenges (0.2.1)
+      decidim-core (~> 0.26.4)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-module-donations
+  revision: aa4d412b0f0f3e2c7c3944ac54f94d480b4afdb3
+  branch: release/0.26-stable
+  specs:
+    decidim-donations (0.2)
+      activemerchant
+      decidim-admin (~> 0.26.4)
+      decidim-core (~> 0.26.4)
+      decidim-verifications (~> 0.26.4)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-module-mkutano-extra_user_fields
+  revision: ff0701ac7da399ddab9579271ec166e7e46b4e66
+  branch: release/0.26-stable
+  specs:
+    decidim-extra_user_fields (0.26.4)
+      country_select (~> 4.0)
+      decidim-core (~> 0.26)
+      deface (~> 1.5)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-module-mkutano_custom_registration_flow
+  revision: 050c5bf3948f6cf2d312f80619c1d4434d6e3199
+  branch: release/0.26-stable
+  specs:
+    decidim-mkutano_custom_registration_flow (0.26.4)
+      decidim-core (~> 0.26)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-module-referral
+  revision: bfaf46386861b858187de054242fb742c37a8a7c
+  branch: release/0.26-stable
+  specs:
+    decidim-referral (0.26.4)
+      decidim-core (= 0.26.4)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-module-time_tracker
+  revision: 89146962e97ac7ab5ff86e3fac924b54827c1ab4
+  branch: release/0.26-stable
+  specs:
+    decidim-time_tracker (0.4)
+      decidim-accountability (>= 0.26.4)
+      decidim-admin (>= 0.26.4)
+      decidim-core (>= 0.26.4)
+      decidim-forms (>= 0.26.4)
+      wicked_pdf (~> 2.1)
+      wkhtmltopdf-binary (~> 0.12)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-verifications-direct_verifications
+  revision: 17f18c2a29dac8538c281843c7ff164914c04dac
+  branch: chore/direct_invite_html
+  specs:
+    decidim-direct_verifications (1.2.1)
+      decidim-admin (>= 0.25.0)
+      decidim-core (>= 0.25.0)
+
+GIT
+  remote: https://github.com/octree-gva/decidim-verifications-simple_impersonation
+  revision: 31bb75a06db7572b35e7155cdb7ef4beb45d0926
+  branch: release/0.26-stable
+  specs:
+    decidim-verifications-simple_impersonation (0.26.4)
+      decidim-admin (= 0.26.4)
+      decidim-core (= 0.26.4)
+      decidim-verifications (= 0.26.4)
+      rails (>= 5.2)
+
+GIT
+  remote: https://github.com/octree-gva/voca-tasks.git
+  revision: 656593b6b4867e007fd05d7efaade4913ec0c991
+  branch: release/0.26-stable
+  specs:
+    decidim-voca (0.26.4)
+      aws-sdk-s3 (~> 1)
+      gruf (~> 2.14, >= 2.14.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actioncable (6.0.6.1)
+      actionpack (= 6.0.6.1)
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailbox (6.0.6.1)
+      actionpack (= 6.0.6.1)
+      activejob (= 6.0.6.1)
+      activerecord (= 6.0.6.1)
+      activestorage (= 6.0.6.1)
+      activesupport (= 6.0.6.1)
+      mail (>= 2.7.1)
+    actionmailer (6.0.6.1)
+      actionpack (= 6.0.6.1)
+      actionview (= 6.0.6.1)
+      activejob (= 6.0.6.1)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (6.0.6.1)
+      actionview (= 6.0.6.1)
+      activesupport (= 6.0.6.1)
+      rack (~> 2.0, >= 2.0.8)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.2.0)
+    actiontext (6.0.6.1)
+      actionpack (= 6.0.6.1)
+      activerecord (= 6.0.6.1)
+      activestorage (= 6.0.6.1)
+      activesupport (= 6.0.6.1)
+      nokogiri (>= 1.8.5)
+    actionview (6.0.6.1)
+      activesupport (= 6.0.6.1)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    active_link_to (1.0.5)
+      actionpack
+      addressable
+    activejob (6.0.6.1)
+      activesupport (= 6.0.6.1)
+      globalid (>= 0.3.6)
+    activemerchant (1.126.0)
+      activesupport (>= 4.2)
+      builder (>= 2.1.2, < 4.0.0)
+      i18n (>= 0.6.9)
+      nokogiri (~> 1.4)
+    activemodel (6.0.6.1)
+      activesupport (= 6.0.6.1)
+    activerecord (6.0.6.1)
+      activemodel (= 6.0.6.1)
+      activesupport (= 6.0.6.1)
+    activestorage (6.0.6.1)
+      actionpack (= 6.0.6.1)
+      activejob (= 6.0.6.1)
+      activerecord (= 6.0.6.1)
+      marcel (~> 1.0)
+    activesupport (6.0.6.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    acts_as_list (0.9.19)
+      activerecord (>= 3.0)
+    addressable (2.8.4)
+      public_suffix (>= 2.0.2, < 6.0)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.730.0)
+    aws-sdk-core (3.170.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sdk-kms (1.63.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.119.1)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.4)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    batch-loader (1.5.0)
+    bcrypt (3.1.18)
+    bootsnap (1.16.0)
+      msgpack (~> 1.2)
+    browser (2.7.1)
+    builder (3.2.4)
+    carrierwave (2.2.4)
+      activemodel (>= 5.0.0)
+      activesupport (>= 5.0.0)
+      addressable (~> 2.6)
+      image_processing (~> 1.1)
+      marcel (~> 1.0.0)
+      mini_mime (>= 0.1.3)
+      ssrf_filter (~> 1.0)
+    cells (4.1.7)
+      declarative-builder (< 0.2.0)
+      declarative-option (< 0.2.0)
+      tilt (>= 1.4, < 3)
+      uber (< 0.2.0)
+    cells-erb (0.1.0)
+      cells (~> 4.0)
+      erbse (>= 0.1.1)
+    cells-rails (0.1.5)
+      actionpack (>= 5.0)
+      cells (>= 4.1.6, < 5.0.0)
+    charlock_holmes (0.7.7)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    coffee-rails (5.0.0)
+      coffee-script (>= 2.2.0)
+      railties (>= 5.2.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
+    colorize (0.8.1)
+    concurrent-ruby (1.2.2)
+    connection_pool (2.3.0)
+    countries (3.1.0)
+      i18n_data (~> 0.11.0)
+      sixarm_ruby_unaccent (~> 1.1)
+      unicode_utils (~> 1.4)
+    country_select (4.0.0)
+      countries (~> 3.0)
+      sort_alphabetical (~> 1.0)
+    crass (1.0.6)
+    css_parser (1.14.0)
+      addressable
+    dalli (3.2.4)
+    date (3.3.3)
+    date_validator (0.9.0)
+      activemodel
+      activesupport
+    decidim-decidim_awesome (0.8.3)
+      decidim-admin (>= 0.25.0, < 0.27)
+      decidim-core (>= 0.25.0, < 0.27)
+      sassc (~> 2.3)
+    declarative-builder (0.1.0)
+      declarative-option (< 0.2.0)
+    declarative-option (0.1.0)
+    deface (1.9.0)
+      actionview (>= 5.2)
+      nokogiri (>= 1.6)
+      polyglot
+      railties (>= 5.2)
+      rainbow (>= 2.1.0)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    devise (4.9.2)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+    devise-i18n (1.11.0)
+      devise (>= 4.9.0)
+    devise_invitable (2.0.8)
+      actionmailer (>= 5.0)
+      devise (>= 4.6)
+    diffy (3.4.2)
+    doc2text (0.4.6)
+      nokogiri (>= 1.13.2, < 1.15.0)
+      rubyzip (~> 2.3.0)
+    doorkeeper (5.6.6)
+      railties (>= 5)
+    doorkeeper-i18n (4.0.1)
+    e2mmap (0.1.0)
+    equalizer (0.0.11)
+    erbse (0.1.4)
+      temple
+    erubi (1.12.0)
+    excon (0.100.0)
+    execjs (2.8.1)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
+    faraday (2.7.6)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    ffi (1.15.5)
+    file_validators (2.3.0)
+      activemodel (>= 3.2)
+      mime-types (>= 1.0)
+    fog-core (2.3.0)
+      builder
+      excon (~> 0.71)
+      formatador (>= 0.2, < 2.0)
+      mime-types
+    fog-local (0.8.0)
+      fog-core (>= 1.27, < 3.0)
+    formatador (1.1.0)
+    foundation_rails_helper (4.0.1)
+      actionpack (>= 4.1, < 7.1)
+      activemodel (>= 4.1, < 7.1)
+      activesupport (>= 4.1, < 7.1)
+      railties (>= 4.1, < 7.1)
+    geocoder (1.7.5)
+    globalid (1.1.0)
+      activesupport (>= 5.0)
+    google-protobuf (3.22.2-x86_64-linux)
+    googleapis-common-protos-types (1.5.0)
+      google-protobuf (~> 3.14)
+    graphql (1.12.24)
+    grpc (1.52.0-x86_64-linux)
+      google-protobuf (~> 3.21)
+      googleapis-common-protos-types (~> 1.0)
+    grpc-tools (1.52.0)
+    gruf (2.17.0)
+      activesupport (> 4)
+      concurrent-ruby (> 1)
+      e2mmap (>= 0.1)
+      grpc (~> 1.10)
+      grpc-tools (~> 1.10)
+      json (>= 2.3)
+      slop (>= 4.6)
+      thwait (>= 0.1)
+      zeitwerk (>= 2)
+    hashdiff (1.0.1)
+    hashie (5.0.0)
+    hiredis (0.6.3)
+    htmlentities (4.3.4)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    i18n_data (0.11.0)
+    icalendar (2.8.0)
+      ice_cube (~> 0.16)
+    ice_cube (0.16.4)
+    ice_nine (0.11.2)
+    image_processing (1.12.2)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.17, < 3)
+    invisible_captcha (0.13.0)
+      rails (>= 3.2.0)
+    jmespath (1.6.2)
+    json (2.6.3)
+    jwt (2.7.1)
+    kaminari (1.2.2)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.2)
+      kaminari-activerecord (= 1.2.2)
+      kaminari-core (= 1.2.2)
+    kaminari-actionview (1.2.2)
+      actionview
+      kaminari-core (= 1.2.2)
+    kaminari-activerecord (1.2.2)
+      activerecord
+      kaminari-core (= 1.2.2)
+    kaminari-core (1.2.2)
+    loofah (2.3.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
+    marcel (1.0.2)
+    method_source (1.0.0)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2023.0218.1)
+    mini_magick (4.12.0)
+    mini_mime (1.1.2)
+    minitest (5.18.0)
+    msgpack (1.6.1)
+    multi_xml (0.6.0)
+    mustache (1.1.1)
+    net-imap (0.3.6)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
+    nio4r (2.5.9)
+    nokogiri (1.14.5-x86_64-linux)
+      racc (~> 1.4)
+    oauth (1.1.0)
+      oauth-tty (~> 1.0, >= 1.0.1)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    oauth-tty (1.0.5)
+      version_gem (~> 1.1, >= 1.1.1)
+    oauth2 (2.0.9)
+      faraday (>= 0.17.3, < 3.0)
+      jwt (>= 1.0, < 3.0)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 4)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    omniauth (2.1.1)
+      hashie (>= 3.4.6)
+      rack (>= 2.2.3)
+      rack-protection
+    omniauth-facebook (5.0.0)
+      omniauth-oauth2 (~> 1.2)
+    omniauth-google-oauth2 (1.1.1)
+      jwt (>= 2.0)
+      oauth2 (~> 2.0.6)
+      omniauth (~> 2.0)
+      omniauth-oauth2 (~> 1.8.0)
+    omniauth-oauth (1.2.0)
+      oauth
+      omniauth (>= 1.0, < 3)
+    omniauth-oauth2 (1.8.0)
+      oauth2 (>= 1.4, < 3)
+      omniauth (~> 2.0)
+    omniauth-rails_csrf_protection (1.0.1)
+      actionpack (>= 4.2)
+      omniauth (~> 2.0)
+    omniauth-twitter (1.4.0)
+      omniauth-oauth (~> 1.1)
+      rack
+    origami (2.1.0)
+      colorize (~> 0.7)
+    orm_adapter (0.5.0)
+    paper_trail (12.3.0)
+      activerecord (>= 5.2)
+      request_store (~> 1.1)
+    pg (1.1.4)
+    pg_search (2.3.6)
+      activerecord (>= 5.2)
+      activesupport (>= 5.2)
+    polyglot (0.3.5)
+    premailer (1.21.0)
+      addressable
+      css_parser (>= 1.12.0)
+      htmlentities (>= 4.0.0)
+    premailer-rails (1.12.0)
+      actionmailer (>= 3)
+      net-smtp
+      premailer (~> 1.7, >= 1.7.9)
+    public_suffix (5.0.1)
+    puma (6.1.1)
+      nio4r (~> 2.0)
+    racc (1.7.0)
+    rack (2.2.7)
+    rack-attack (6.6.1)
+      rack (>= 1.0, < 3)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
+    rack-protection (3.0.6)
+      rack
+    rack-proxy (0.7.6)
+      rack
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rails (6.0.6.1)
+      actioncable (= 6.0.6.1)
+      actionmailbox (= 6.0.6.1)
+      actionmailer (= 6.0.6.1)
+      actionpack (= 6.0.6.1)
+      actiontext (= 6.0.6.1)
+      actionview (= 6.0.6.1)
+      activejob (= 6.0.6.1)
+      activemodel (= 6.0.6.1)
+      activerecord (= 6.0.6.1)
+      activestorage (= 6.0.6.1)
+      activesupport (= 6.0.6.1)
+      bundler (>= 1.3.0)
+      railties (= 6.0.6.1)
+      sprockets-rails (>= 2.0.0)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.4.3)
+      loofah (~> 2.3)
+    rails-i18n (6.0.0)
+      i18n (>= 0.7, < 2)
+      railties (>= 6.0.0, < 7)
+    railties (6.0.6.1)
+      actionpack (= 6.0.6.1)
+      activesupport (= 6.0.6.1)
+      method_source
+      rake (>= 0.8.7)
+      thor (>= 0.20.3, < 2.0)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    ransack (2.4.2)
+      activerecord (>= 5.2.4)
+      activesupport (>= 5.2.4)
+      i18n
+    rectify (0.13.0)
+      activemodel (>= 4.1.0)
+      activerecord (>= 4.1.0)
+      activesupport (>= 4.1.0)
+      virtus (~> 1.0.5)
+      wisper (>= 1.6.1)
+    redcarpet (3.6.0)
+    redis (4.8.1)
+    request_store (1.5.1)
+      rack (>= 1.4)
+    responders (3.1.0)
+      actionpack (>= 5.2)
+      railties (>= 5.2)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
+    ruby2_keywords (0.0.5)
+    rubyXL (3.4.25)
+      nokogiri (>= 1.10.8)
+      rubyzip (>= 1.3.0)
+    rubyzip (2.3.2)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    searchlight (4.1.0)
+    semantic_range (3.0.0)
+    seven_zip_ruby (1.3.0)
+    sidekiq (6.5.8)
+      connection_pool (>= 2.2.5, < 3)
+      rack (~> 2.0)
+      redis (>= 4.5.0, < 5)
+    sixarm_ruby_unaccent (1.2.0)
+    slop (4.10.1)
+    snaky_hash (2.0.1)
+      hashie
+      version_gem (~> 1.1, >= 1.1.1)
+    social-share-button (1.2.4)
+      coffee-rails
+    sort_alphabetical (1.1.0)
+      unicode_utils (>= 1.2.2)
+    sprockets (4.2.0)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
+    sprockets-rails (3.4.2)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
+      sprockets (>= 3.0.0)
+    ssrf_filter (1.1.1)
+    temple (0.10.2)
+    thor (1.2.2)
+    thread_safe (0.3.6)
+    thwait (0.2.0)
+      e2mmap
+    tilt (2.2.0)
+    timeout (0.3.2)
+    tzinfo (1.2.11)
+      thread_safe (~> 0.1)
+    uber (0.1.0)
+    unicode_utils (1.4.0)
+    valid_email2 (2.3.1)
+      activemodel (>= 3.2)
+      mail (~> 2.5)
+    version_gem (1.1.3)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    virtus-multiparams (0.1.1)
+      virtus (~> 1.0)
+    warden (1.2.9)
+      rack (>= 2.0.9)
+    webpacker (6.0.0.rc.5)
+      activesupport (>= 5.2)
+      rack-proxy (>= 0.6.1)
+      railties (>= 5.2)
+      semantic_range (>= 2.3.0)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    wicked (1.4.0)
+      railties (>= 3.0.7)
+    wicked_pdf (2.6.3)
+      activesupport
+    wisper (2.0.1)
+    wkhtmltopdf-binary (0.12.6.6)
+    zeitwerk (2.6.8)
+
+PLATFORMS
+  x86_64-linux-musl
+
+DEPENDENCIES
+  bootsnap (~> 1.3)
+  dalli (~> 3.2)
+  decidim!
+  decidim-access_codes!
+  decidim-challenges!
+  decidim-conferences!
+  decidim-consultations!
+  decidim-decidim_awesome (>= 0.8)
+  decidim-direct_verifications!
+  decidim-donations!
+  decidim-extra_user_fields!
+  decidim-group_list!
+  decidim-initiatives!
+  decidim-mkutano_custom_registration_flow!
+  decidim-only_forms!
+  decidim-referral!
+  decidim-templates!
+  decidim-term_customizer!
+  decidim-time_tracker!
+  decidim-verifications-simple_impersonation!
+  decidim-voca!
+  faker (~> 2.14)
+  hiredis (~> 0.6.3)
+  puma (>= 6.1)
+  redis (>= 4.1)
+  sidekiq (~> 6.2, >= 6.2.1)
+  wicked_pdf (~> 2.1)
+
+RUBY VERSION
+   ruby 2.7.7p221
+
+BUNDLED WITH
+   2.4.6

@@ -1,0 +1,52 @@
+voca:
+  gems:
+    decidim-initiatives:
+      git: "https://github.com/octree-gva/decidim-lts"
+      branch: "lts/0.26.4"
+      glob: "decidim-initiatives/*.gemspec"
+    decidim-access_codes:
+      git: "https://github.com/Platoniq/decidim-module-access_codes"
+    decidim-voca:
+      git: "https://github.com/octree-gva/voca-tasks.git"
+      branch: "release/0.26-stable"
+    decidim-consultations:
+      git: "https://github.com/octree-gva/decidim-lts.git"
+      branch: "lts/0.26.4"
+      glob: "decidim-consultations/*.gemspec"
+    decidim-decidim_awesome:
+      version: ">= 0.8"
+    decidim-term_customizer:
+      git: "https://github.com/mainio/decidim-module-term_customizer"
+      branch: "release/0.26-stable"
+    decidim-group_list:
+      git: "https://git.octree.ch/decidim/decidim-module-group-list.git"
+      branch: "feat/self_registration_groups"
+    decidim-referral:
+      git: "https://github.com/octree-gva/decidim-module-referral"
+      branch: "release/0.26-stable"
+    decidim-extra_user_fields:
+      git: "https://github.com/octree-gva/decidim-module-mkutano-extra_user_fields"
+      branch: "release/0.26-stable"
+    dalli:
+      version: "~> 3.2"
+    decidim-only_forms:
+      git: "https://git.octree.ch/decidim/decidim-module-only_forms"
+      branch: "release/0.26-stable"
+    decidim-direct_verifications:
+      git: "https://github.com/octree-gva/decidim-verifications-direct_verifications"
+      branch: "chore/direct_invite_html"
+    decidim-challenges:
+      git: "https://github.com/octree-gva/decidim-module-challenges.git"
+      branch: "release/0.26-stable"
+    decidim-verifications-simple_impersonation:
+      git: "https://github.com/octree-gva/decidim-verifications-simple_impersonation"
+      branch: "release/0.26-stable"
+    decidim-time_tracker:
+      git: "https://github.com/octree-gva/decidim-module-time_tracker"
+      branch: "release/0.26-stable"
+    decidim-donations:
+      git: "https://github.com/octree-gva/decidim-module-donations"
+      branch: "release/0.26-stable"
+    decidim-mkutano_custom_registration_flow:
+      git: "https://github.com/octree-gva/decidim-module-mkutano_custom_registration_flow"
+      branch: "release/0.26-stable"

@@ -1,0 +1,27 @@
+---
+en:
+  devise:
+    mailer:
+      invitation_instructions:
+        accept: "Accept Invitation"
+        accept_until: "This invitation will expire on %{due_date}. However, you can also visit https://www.mkutano.community to Sign Up."
+        decline: "Decline Invitation"
+        hello: "Hello %{email}"
+        ignore: |
+          The fight for equity and justice is ours. We mustn’t wait for change to come through others. 
+          Let’s come together and act. We will achieve more and faster if we work together.<br /><br />
+          The MKUTANO Team
+        invited_you_as_admin: "%{invited_by} has invited you as an admin of %{application}. You can accept it through the link below."
+        invited_you_as_private_user: "%{invited_by} has invited you as a private participant of %{application}. You can accept it through the link below."
+        someone_invited_you: |
+          You are invited to join the MKUTANO platform where Black Canadians meet and organize to craft our own future.</p><p>
+          Organizing determines our prioritized goals and lays out a path to achieve them. <br />
+          It’s the critical activity to advance a community however, best results require everyone’s involvement.<br />
+          </p><p><strong> Numbers is strength; 
+          Numbers demonstrates commitment; Number force recognition; Numbers enforces consequences.</strong><br />
+          </p><p> Therefore, participate and be part of the solution. 
+          If you also represent an Organization, then provide the details on the Sign Up form.<br /> <br />
+        someone_invited_you_as_admin:  "You are invited to join the MKUTANO platform where Black Canadians meet and organize to craft our own future."
+        someone_invited_you_as_private_user: "You are invited to join the MKUTANO platform where Black Canadians meet and organize to craft our own future."
+        subject: "Invitation to join MKUTANO"
+        accept_until_format: "%B %d, %Y %I:%M %p"     
